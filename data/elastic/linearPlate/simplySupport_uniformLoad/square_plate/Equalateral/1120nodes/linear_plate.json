@@ -1,0 +1,29 @@
+{
+    "bending_type": "midEdgeShell",
+    "clamped_DOFs": "squareEqLateral1120_simply_support_dofs.dat",
+    "collision_eta": 5e-05,
+    "collision_penalty": 0.0,
+    "cur_mesh": "squareEqLateral1120_deformed.obj",
+    "curedge_DOFs": "plate_edgedofs.txt",
+    "density": 100.0,
+    "gravity": [
+        0.0,
+        0.0,
+        9.81
+    ],
+    "init_mesh": "squareEqLateral1120.obj",
+    "max_stepsize": 1.0,
+    "num_interpolation": 1,
+    "obs_mesh": "squareEqLateral1120_obstacle.obj",
+    "output_mesh": "../data/elastic/linearPlate/simplySupport_uniformLoad/square_plate/1120nodes/result/output_squareEqLateral1120.obj",
+    "perturb": 0.0,
+    "poisson_ratio": 0.3,
+    "point_Forces": "pointForce.txt",
+    "pressure": 0.0,
+    "rest_flat": true,
+    "rest_mesh": "squareEqLateral1120.obj",
+    "sff_type": "midedgeSin",
+    "stretching_type": "StVK",
+    "thickness": 1e-2,
+    "youngs_modulus": 2e11
+}

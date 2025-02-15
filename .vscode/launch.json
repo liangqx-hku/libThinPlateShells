@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            // ./bin/ThinShellCli_bin -i ../data/elastic/disk/disk_elastic.json -o ../data/elastic/disk/results 
+            // ./bin/ThinShellCli_bin -i ../data/elastic/linearPlate/linear_plate.json -o ../data/elastic/linearPlate/results
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/ThinShellCli_bin",
+            "args": [
+                "-i",
+                "${workspaceFolder}/data/elastic/linearPlate/linear_plate.json",
+                "-o",
+                "${workspaceFolder}/data/elastic/linearPlate/results"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+
+}

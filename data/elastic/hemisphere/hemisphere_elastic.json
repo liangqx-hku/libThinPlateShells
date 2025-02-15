@@ -1,0 +1,29 @@
+{
+    "bending_type": "EP",
+    "clamped_DOFs": "hemisphere_clamped_dofs.dat",
+    "collision_eta": 5e-05,
+    "collision_penalty": 0.0,
+    "cur_mesh": "initialState_hemisphere_full289_deformed.obj",
+    "curedge_DOFs": "hemisphere_edgedofs_simulated.txt",
+    "density": 0.0,
+    "gravity": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "init_mesh": "initialState_hemisphere_full289.obj",
+    "max_stepsize": 1.0,
+    "num_interpolation": 1,
+    "obs_mesh": "initialState_hemisphere_full289_obstacle.obj",
+    "output_mesh": "../data/elastic/hemisphere/output_hemisphere_full289.obj",
+    "perturb": 0.0,
+    "poisson_ratio": 0.3,
+    "point_Forces": "pointForce_hemisphere_full289.txt",
+    "pressure": 0.0,
+    "rest_flat": false,
+    "rest_mesh": "initialState_hemisphere_full289.obj",
+    "sff_type": "midedgeAve",
+    "stretching_type": "StVK",
+    "thickness": 0.04,
+    "youngs_modulus": 68250000.0
+}

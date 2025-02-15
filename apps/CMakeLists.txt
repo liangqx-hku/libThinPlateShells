@@ -1,0 +1,2 @@
+add_subdirectory(ThinShellGui)
+add_subdirectory(ThinShellCli)
