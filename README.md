@@ -1,6 +1,6 @@
 # libThinPlateShells
 
-This code repo implements the techniques presented in the Eurographics 2025 conference paper: [Corotational Hinge-based Thin Plates/Shells]. 
+This code repo implements the techniques presented in the Eurographics 2025 conference paper: [Corotational Hinge-based Thin Plates/Shells](https://arxiv.org/pdf/2502.10872). 
 
 ## Bending Models for the Thin Shell
 
@@ -54,7 +54,7 @@ sudo apt-get install -y libsuitesparse-dev
 ### Clone and Build the Project
 Use the following commands to download and compile the project:
 ```
-    git clone <repository_url>
+    git clone https://github.com/liangqx-hku/libThinPlateShells.git
     cd LibThinShells
     mkdir build
     cd build
@@ -85,7 +85,7 @@ The following parameters in the JSON file should be specified, others are defaul
   - When using **EP, ES, FP, FS, SP, SS**, `sff_type` must be set to `midedgeAve` for data structure consistency.  
   - *(Note: QTP/QTS are implemented within EP/ES but are not provided for direct execution.)*  
 
-- **`clamped_DOFs`**: Path to the `.dat` file containing clamped degrees of freedom, formatted as `(DOF index, DOF value)`.  
+- **`clamped_DOFs`**: Path to the `.dat` file containing clamped degrees of freedom, formatted as `(DOF index, coordinate at the clamped dof)`.  
 
 - **`curedge_DOFs`**: Specifies **midedge rotation degrees of freedom** for midedge formulations.  
 
@@ -113,4 +113,6 @@ The following parameters in the JSON file should be specified, others are defaul
 ## GUI with Polyscope
 We also provide a GUI version of the executable program: ThinShellGui_bin. The input parameters for the GUI version are identical to those used in the command-line counterpart.
 
+## Contact
+If you have any question, please feel free to contact me at liangqixin23@outlook.com
 
